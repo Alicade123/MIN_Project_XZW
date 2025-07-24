@@ -1,0 +1,23 @@
+RewriteEngine On    # Turn on the rewriting engine
+
+RewriteRule    ^home/?$    index.php    [NC,L]
+
+RewriteRule    ^about/?$    about.php    [NC,L]
+
+RewriteRule    ^contact/?$    contact.php    [NC,L]
+RewriteRule    ^footer/?$    footer.php    [NC,L]
+RewriteRule    ^header/?$    header.php    [NC,L]
+RewriteRule    ^addwhy/?$    add-why.php    [NC,L]
+
+RewriteRule    ^editportfolio/([A-Za-z0-9-]+)/?$    editport.php?id=$1    [NC,L]
+RewriteRule    ^editservice/([A-Za-z0-9-]+)/?$    editservice.php?id=$1    [NC,L]
+
+RewriteRule    ^portdetail/?$    portdetail.php    [NC,L]
+
+RewriteRule    ^portfolio/?$    portfolio.php    [NC,L]
+RewriteRule    ^servicedetail/?$    servicedetail.php    [NC,L]
+
+RewriteRule    ^services/?$    services.php    [NC,L]
+RewriteRule    ^z_db/?$    z_db.php    [NC,L]
+
+
